@@ -1,0 +1,87 @@
+Command Mode (press ESC to enable)
+Syntax		;			Description
+F			;	 		Find and replace
+CTRL-SHIFT-F;			Open the Command Palette
+CTRL-SHIFT-P;			Open the Command Palette
+ENTER		;			Enter Edit Mode
+P			;			Open the Command Palette
+SHIFT-ENTER	;			Run cell, select below
+CTRL-ENTER	;			Run selected cells
+ALT-ENTER	;			Run cell and insert below
+Y			;			Change cell to code
+M			;			Change cell to Markdown
+R			;			Change cell to raw
+1			;			Change cell to heading 1
+2			;			Change cell to heading 2
+3			;			Change cell to heading 3
+4			;			Change cell to heading 4
+5			;			Change cell to heading 5
+6			;			Change cell to heading 6
+K			;			Select cell above
+UP			;			Select cell above
+DOWN		;			Select cell below
+J			;			Select cell below
+SHIFT-K		;			Extend selected cells above
+SHIFT-UP	;			Extend selected cells above
+SHIFT-DOWN	;			Extend selected cells below
+SHIFT-J		;			Extend selected cells below
+CTRL-A		;			Select all cells
+A			;			Insert cell above
+B			;			Insert cell below
+X			;			Cut selected cells
+C			;			Copy selected cells
+SHIFT-V		;			Paste cells above
+V			;			Paste cells below
+Z			;			Undo cell deletion
+D,D			;			Delete selected cells
+SHIFT-M		;			Merge selected cells, or current cell with cell below if only one cell is selected
+CTRL-S		;			Save and Checkpoint
+S			;			Save and Checkpoint
+L			;			Toggle line numbers
+O			;			Toggle output of selected cells
+SHIFT-O		;			Toggle output scrolling of selected cells
+H			;			Show keyboard shortcuts
+I,I			;			Interrupt the kernel
+0,0			;			Restart the kernel (with dialog)
+ESC			;			Close the pager
+Q			;			Close the pager
+SHIFT-L		;			Toggles line numbers in all cells, and persist the setting
+SHIFT-SPACE	;			Scroll notebook up
+SPACE		;			Scroll notebook down
+
+
+Edit Mode (press ENTER to enable)
+Syntax		;			Description
+TAB			;			Code completion or indent
+SHIFT-TAB	;			Tooltip
+CTRL-]		;			Indent
+CTRL-[		;			Dedent
+CTRL-A		;			Select all
+CTRL-Z		;			Undo
+CTRL-/		;			Comment
+CTRL-D		;			Delete whole line
+CTRL-U		;			Undo selection
+INSERT		;			Toggle overwrite flag
+CTRL-HOME	;			Go to cell start
+CTRL-UP		;			Go to cell start
+CTRL-END	;			Go to cell end
+CTRL-DOWN	;			Go to cell end
+CTRL-LEFT	;			Go one word left
+CTRL-RIGHT	;			Go one word right
+CTRL-BACKSPACE	;		Delete word before
+CTRL-DELETE		;		Delete word after
+CTRL-Y			;		Redo
+ALT-U			;		Redo selection
+CTRL-M			;		Enter Command Mode
+CTRL-SHIFT-F	;		Open the Command Palette
+CTRL-SHIFT-P	;		Open the Command Palette
+ESC				;		Enter Command Mode
+SHIFT-ENTER		;		Run cell, select below
+CTRL-ENTER		;		Run selected cells
+ALT-ENTER		;		Run cell and insert below
+CTRL-SHIFT-MINUS;		Split cell at cursor(s)
+CTRL-S			;		Save and Checkpoint
+CTRL-E			;		Insert an equation
+CTRL-I			;		Insert an itemize env
+DOWN			;		Move cursor down
+UP				;		Move cursor up
